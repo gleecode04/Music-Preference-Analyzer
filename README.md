@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-<h1 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Team Project Plan Template - LEO GROUP 1</span></span></span></u></span></p></strong></u></span></h1>
+<h1 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Team Project Plan </span></span></span></u></span></p></strong></u></span></h1>
 
 <h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">I. Scrum Roles and Additional Responsibilities:</span></span></strong></u></span></h3>
 
