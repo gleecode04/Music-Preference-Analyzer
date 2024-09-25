@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-107dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="user's_spotify_wrapped_2024"
+            android:textColor="#1DB954"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <!-- Top 5 Songs and Top 5 Artists -->
+
+        <!-- Groovy Lines -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- Top 5 Songs -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTopSongs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top 5 Songs"
+                    android:textColor="#1DB954"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewSong1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Song 1"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewSong2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Song 2"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewSong3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Song 3"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewSong4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Song 4"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewSong5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Song 5"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <!-- Add placeholders for remaining songs -->
+
+            </LinearLayout>
+
+            <!-- Top 5 Artists -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTopArtists"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Artist"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1DB954"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewArtist1"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:text="Artist 1"
+                    android:layout_marginBottom="3dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewArtist2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Artist 2"
+                    android:layout_marginBottom="3dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewArtist3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Artist 3"
+                    android:layout_marginBottom="3dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewArtist4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Artist 4"
+                    android:layout_marginBottom="3dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewArtist5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Artist 5"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <!-- Add placeholders for remaining artists -->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <!-- Image Placeholder -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/textViewTitle"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

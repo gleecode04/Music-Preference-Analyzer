@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Horizontal layout to hold both Top Artists and Top Songs sections -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Vertical layout for Top Artists section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Title for Top Artists -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Artists"
+                android:textStyle="bold"/>
+
+            <!-- RecyclerView for Top Artists list -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTopArtists"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+
+        <!-- Vertical layout for Top Songs section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Title for Top Songs -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Songs"
+                android:textStyle="bold"/>
+
+            <!-- RecyclerView for Top Songs list -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTopSongs"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Horizontal layout to hold Minutes Listened and Top Genre sections -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Vertical layout for Minutes Listened section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Title for Minutes Listened -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minutes Listened"
+                android:textStyle="bold"/>
+
+            <!-- RecyclerView for Minutes Listened list -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMinutesListened"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+
+        <!-- Vertical layout for Top Genre section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Title for Top Genre -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Genre"
+                android:textStyle="bold"/>
+
+            <!-- RecyclerView for Top Genre list -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTopGenre"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
