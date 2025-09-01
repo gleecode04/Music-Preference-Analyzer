@@ -1,95 +1,93 @@
-<html>
-<head>
-</head>
-<body>
-<h1 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Team Project Plan </span></span></span></u></span></p></strong></u></span></h1>
+# Spotify Wrapped (Community Viewer)
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">I. Scrum Roles and Additional Responsibilities:</span></span></strong></u></span></h3>
+Share, browse, and discuss Spotify Wrapped—without the DM chaos. This Android app lets you securely connect your Spotify account, generate your personal Wrapped-style summary, and instantly share it to a social feed where friends can like and comment.
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Product Owner: <strong>Rishab Paruchuri</strong></span></span></span></p>
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Scrum Master: <strong>Daniel Lee</strong></span></span></span></p>
+> “At the end of the year, many Spotify users get their annual *Wrapped*… Traditionally, you would have to screenshot or send a link of your wrapped to each person individually — a cumbersome and often annoying thing to do. However, this can all be avoided if you have this Spotify Wrapped app installed!”
 
+---
 
+## ✨ Features
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Developers: <strong>Pratham Patel, Alex Liu, Siwoo Park, Zi Hang Lin</strong></span></span></span></p>
+- **Email auth & onboarding** — Sign up / log in and connect your Spotify account.
+- **Generate & view your Wrapped** — See your top artists, top songs, and more.
+- **Friends’ & public Wrapped** — Browse other users’ profiles or the global feed.
+- **Social feed** — Like and comment on posts; filter by items you’ve liked/commented.
+- **Account controls** — Change password, log out, or delete account from Settings.
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Additional Roles:</span></span></span></p></strong></u></span></h3>
+---
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Technical Support: <strong>Pratham Patel</strong></span></span></span></p>
+## 📸 Screenshots
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"><u>Responsibilities:</u> managing technical issues that arise/debugging</span></span></span></p>
+<p align="center">
+  <img src="./assets/screen-auth.png" width="45%" alt="Auth screens: welcome, sign up, log in, connect Spotify">
+  <img src="./assets/screen-settings.png" width="45%" alt="Account settings drawer and controls">
+</p>
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Documentation: <strong>Daniel Lee</strong></span></span></span></p>
+<p align="center">
+  <img src="./assets/screen-single-wrapped.png" width="45%" alt="Single Wrapped view">
+  <img src="./assets/screen-feed.png" width="45%" alt="Feed with like/comment and filters">
+</p>
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"><u>Responsibilities:</u> document sprint reviews/ daily standups, keep track of progress every sprint(commits etc)</span></span></span></p>
+> *Tip:* Replace the `./assets/*.png` paths with your repo’s image paths if different.
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">II. User Stories and Backlog Presentation:</span></span></u></span></h3>
+---
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">The project backlog for the development of a feature-rich Spotify Wrapped experience focuses on enhancing user interaction, social sharing, and personalized content presentation. By prioritizing user stories based on their value and technical feasibility, the initial sprint aims to lay a solid foundation for the app&#39;s core functionalities while setting the stage for more complex features. The prioritization within this backlog is designed to ensure a balanced approach between delivering immediate user value and the strategic development of the app&#39;s long-term vision.</span></span></span></p>
+# Team Project Plan
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><u><strong><span style="font-size:16px;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Intended User stories (First sprint is in bold):</span></span></span></strong></u></span></p>
+## I. Scrum Roles and Additional Responsibilities
 
-<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[BASE] User Story #1: As a user, I want to be able to view a presentation of the different aspects of my personal Spotify music listening tastes displayed in colorful and fun ways</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[BASE] As a user, I want to be able to create an account and log into to the app so I can view my past Spotify Wrapped summaries</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[3] 1a </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I want to be able to grant my friends the ability to view my Spotify Wrapped</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[13] 2a </span><span style="font-size: 11pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I want to be able to invite a friend to join a Duo Wrapped that displays and compares both of our tastes in a creative combined way</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[8] 3a </span><span style="font-size: 11pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I would like for a LLM API to dynamically describe how someone who listens to my kind of music tends to act/think/dress during my Spotify Wrapped</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[13] 5a </span><span style="font-size: 11pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I would like to be able to hear clips from some of my top songs play during my Spotify Wrapped (due to API limitations, at least 1 group member needs Spotify Premium to attempt this story!)</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[8] 12a </span><span style="font-size: 11pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I would like to be able to sign into my account from any device (Firebase cloud storage instead of SQLite)</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[8] 9a </span><span style="font-size: 11pt; color: rgb(26, 25, 24); font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">As a user, I would like to view a page where I can post my Spotify Wrapped and see all Spotify Wraps that other users made public.</span></span></span></p>
-	</li>
-	<li aria-level="1" dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial, sans-serif; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre;">
-	<p dir="ltr" role="presentation" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">[13] 9c </span><span style="font-size: 11pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; text-wrap: wrap;">for adding the ability to comment on and like Wraps in addition to adding a filter option that only shows posts you&rsquo;ve liked/commented on</span></span></span></p>
-	</li>
-</ul>
+**Product Owner:** Rishab Paruchuri  
+**Scrum Master:** Daniel Lee  
+**Developers:** Pratham Patel, Alex Liu, Siwoo Park, Zi Hang Lin
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><u><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">III. When to Meet the TA:</span></span></span></u></h3>
+### Additional Roles
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Set up a schedule for regular check-ins with your TA.</span></span></span></p>
+- **Technical Support:** Pratham Patel  
+  *Responsibilities:* managing technical issues that arise / debugging
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Frequency: Weekly</span></span></span></p>
+- **Documentation:** Daniel Lee  
+  *Responsibilities:* document sprint reviews & daily standups; track sprint progress (commits, etc.)
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Time:</span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"> TIME HAS TO BE DECIDED (None of the given times work)</span></span></span></p>
+---
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Platform: Zoom</span></span></span></p>
+## II. User Stories and Backlog Presentation
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><u><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">IV. Staying in Touch:</span></span></span></u></h3>
+The project backlog for a feature-rich Spotify Wrapped experience focuses on enhancing user interaction, social sharing, and personalized content. Prioritization balances immediate user value with longer-term vision.
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Communication Tools/Platforms:</span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"> Discord, Phone</span></span></span></p>
+**Intended user stories (first sprint in bold):**
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Conflict Resolution: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Team vote</span></span></span></p>
+- **[BASE] User Story #1:** As a user, I want to view different aspects of my personal Spotify listening tastes displayed in colorful and fun ways.  
+- **[BASE]** As a user, I want to create an account and log in so I can view my past Spotify Wrapped summaries.  
+- **[3] 1a** As a user, I want to grant my friends the ability to view my Spotify Wrapped.  
+- **[13] 2a** As a user, I want to invite a friend to a **Duo Wrapped** that compares both of our tastes in a creative way.  
+- **[8] 3a** As a user, I want an **LLM API** to dynamically describe how someone with my music tastes tends to act/think/dress during my Wrapped.  
+- **[13] 5a** As a user, I want to hear clips from some of my top songs during my Wrapped *(requires at least one teammate with Spotify Premium due to API limits).*  
+- **[8] 12a** As a user, I want to sign into my account from any device *(use Firebase cloud storage instead of SQLite).*  
+- **[8] 9a** As a user, I want a page to post my Spotify Wrapped and see all public Wraps from other users.  
+- **[13] 9c** Add ability to **comment** on and **like** Wraps, plus a filter to show only posts I’ve liked/commented on.
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Decision-Making Process: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Team vote</span></span></span></p>
+---
 
-<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><u><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 13pt; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">V. Using Scrum to Organize:</span></span></span></u></h3>
+## III. When to Meet the TA
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Sprint Duration: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">2.5 weeks</span></span></span></p>
+- **Frequency:** Weekly  
+- **Time:** *To be decided* (none of the given times work)  
+- **Platform:** Zoom
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Sprint Planning:</span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"> Meet in person and decide roles</span></span></span></p>
+---
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Daily Stand-ups: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Monday, Wednesday, Friday in class / asynchronously&nbsp;</span></span></span></p>
+## IV. Staying in Touch
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Sprint Reviews: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">After each sprint, focused on identifying stakeholder needs and addressing issues</span></span></span></p>
+- **Communication Tools/Platforms:** Discord, Phone  
+- **Conflict Resolution:** Team vote  
+- **Decision-Making Process:** Team vote
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-family:verdana,geneva,sans-serif;"><span id="docs-internal-guid-7334d097-7fff-4425-1635-afc1d4e451b3"><span style="font-size: 11pt; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Backlog Management and Sprint Tracking Tools: </span><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;">Github Projects</span></span></span></p>
+---
 
-<div><br />
-&nbsp;</div>
-</body>
-</html>
+## V. Using Scrum to Organize
+
+- **Sprint Duration:** 2.5 weeks  
+- **Sprint Planning:** Meet in person and decide roles  
+- **Daily Stand-ups:** Monday, Wednesday, Friday in class / asynchronously  
+- **Sprint Reviews:** After each sprint, focused on identifying stakeholder needs and addressing issues  
+- **Backlog Management & Sprint Tracking:** GitHub Projects
