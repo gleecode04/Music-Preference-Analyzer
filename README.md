@@ -28,8 +28,6 @@ Share, browse, and discuss Spotify Wrapped—without the DM chaos. This Android 
   <img src="./assets/screen-feed.png" width="45%" alt="Feed with like/comment and filters">
 </p>
 
-> *Tip:* Replace the `./assets/*.png` paths with your repo’s image paths if different.
-
 ---
 
 # Team Project Plan
