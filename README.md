@@ -1,4 +1,4 @@
-# Spotify Wrapped (Community Viewer)
+# Spotify Wrapped
 
 Share, browse, and discuss Spotify Wrapped—without the DM chaos. This Android app lets you securely connect your Spotify account, generate your personal Wrapped-style summary, and instantly share it to a social feed where friends can like and comment.
 
@@ -16,19 +16,6 @@ Share, browse, and discuss Spotify Wrapped—without the DM chaos. This Android 
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./assets/screen-auth.png" width="45%" alt="Auth screens: welcome, sign up, log in, connect Spotify">
-  <img src="./assets/screen-settings.png" width="45%" alt="Account settings drawer and controls">
-</p>
-
-<p align="center">
-  <img src="./assets/screen-single-wrapped.png" width="45%" alt="Single Wrapped view">
-  <img src="./assets/screen-feed.png" width="45%" alt="Feed with like/comment and filters">
-</p>
-
----
 
 # Team Project Plan
 
