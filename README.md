@@ -17,23 +17,7 @@ Share, browse, and discuss Spotify Wrapped—without the DM chaos. This Android 
 ---
 
 
-# Team Project Plan
 
-## I. Scrum Roles and Additional Responsibilities
-
-**Product Owner:** Rishab Paruchuri  
-**Scrum Master:** Daniel Lee  
-**Developers:** Pratham Patel, Alex Liu, Siwoo Park, Zi Hang Lin
-
-### Additional Roles
-
-- **Technical Support:** Pratham Patel  
-  *Responsibilities:* managing technical issues that arise / debugging
-
-- **Documentation:** Daniel Lee  
-  *Responsibilities:* document sprint reviews & daily standups; track sprint progress (commits, etc.)
-
----
 
 ## II. User Stories and Backlog Presentation
 
@@ -51,28 +35,3 @@ The project backlog for a feature-rich Spotify Wrapped experience focuses on enh
 - **[8] 9a** As a user, I want a page to post my Spotify Wrapped and see all public Wraps from other users.  
 - **[13] 9c** Add ability to **comment** on and **like** Wraps, plus a filter to show only posts I’ve liked/commented on.
 
----
-
-## III. When to Meet the TA
-
-- **Frequency:** Weekly  
-- **Time:** *To be decided* (none of the given times work)  
-- **Platform:** Zoom
-
----
-
-## IV. Staying in Touch
-
-- **Communication Tools/Platforms:** Discord, Phone  
-- **Conflict Resolution:** Team vote  
-- **Decision-Making Process:** Team vote
-
----
-
-## V. Using Scrum to Organize
-
-- **Sprint Duration:** 2.5 weeks  
-- **Sprint Planning:** Meet in person and decide roles  
-- **Daily Stand-ups:** Monday, Wednesday, Friday in class / asynchronously  
-- **Sprint Reviews:** After each sprint, focused on identifying stakeholder needs and addressing issues  
-- **Backlog Management & Sprint Tracking:** GitHub Projects
